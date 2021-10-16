@@ -1,9 +1,29 @@
-$main-text-color: coral;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+$main-text-color: #dfdcca;
+
+body {
+    background: url('./static/background.jpg') repeat;
+    margin: 0;
+    padding: 0;
+}
 
 .container {
     max-width: 1000px;
-    margin: 0 auto;
+    height: 400px;
+    margin: 20vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba( 21, 21, 21, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     h1 {
         color: $main-text-color;
+        font-family: 'Montserrat', sans-serif;
     }
 }
