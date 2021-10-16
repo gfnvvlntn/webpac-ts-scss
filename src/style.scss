@@ -1,0 +1,9 @@
+$main-text-color: coral;
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    h1 {
+        color: $main-text-color;
+    }
+}
